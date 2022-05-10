@@ -1,8 +1,8 @@
 package applicationWIthDi;
 
-public class Roster implements IData{
+public class Schedule implements IData{
     @Override
     public String getData() {
-        return "duty list";
+        return "list of meting";
     }
 }
